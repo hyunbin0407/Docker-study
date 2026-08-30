@@ -9,7 +9,7 @@ Docker를 처음 배우는 초보자의 학습 기록입니다.
 |---|---|---|---|
 | 1 | Docker란 무엇인가 (개념 이해) | ✅ 완료 | [01-docker-intro](./01-docker-intro/README.md) |
 | 2 | 기본 명령어로 컨테이너 다뤄보기 | ✅ 완료 | [02-container-basics](./02-container-basics/README.md) |
-| 3 | 컨테이너 안 들여다보기 (exec, logs) | ⬜ 예정 | - |
+| 3 | 컨테이너 안 들여다보기 (exec, logs) | ✅ 완료 | [03-container-inspection](./03-container-inspection/README.md) |
 | 4 | 나만의 이미지 만들기 (Dockerfile) | ⬜ 예정 | - |
 | 5 | 데이터 유지하기 (Volume) | ⬜ 예정 | - |
 | 6 | 네트워크 이해하기 | ⬜ 예정 | - |
