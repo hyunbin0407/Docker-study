@@ -1,0 +1,23 @@
+services:
+  web:
+    build: ./app
+    ports:
+      - "3000:3000"
+    environment:
+      - DB_HOST=db
+      - DB_USER=root
+      - DB_PASSWORD=mypassword
+      - DB_NAME=notesdb
+    depends_on:
+      - db
+
+  db:
+    image: mysql:8
+    environment:
+      - MYSQL_ROOT_PASSWORD=mypassword
+      - MYSQL_DATABASE=notesdb
+    volumes:
+      - db-data:/var/lib/mysql
+
+volumes:
+  db-data:

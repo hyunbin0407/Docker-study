@@ -14,7 +14,7 @@ Docker를 처음 배우는 초보자의 학습 기록입니다.
 | 5 | 데이터 유지하기 (Volume) | ✅ 완료 | [05-volume](./05-volume/README.md) |
 | 6 | 네트워크 이해하기 | ✅ 완료 | [06-network](./06-network/README.md) |
 | 7 | 여러 컨테이너 관리하기 (Docker Compose) | ✅ 완료 | [07-compose](./07-compose/README.md) |
-| 8 | 실전 프로젝트 (웹앱 + DB) | ⬜ 예정 | - |
+| 8 | 실전 프로젝트 (웹앱 + DB) | ✅ 완료 | [08-project](./08-project/README.md) |
 | 9 | 심화 주제 (멀티스테이지 빌드, 리소스 제한 등) | ⬜ 예정 | - |
 
 ## 📝 정리 방식
